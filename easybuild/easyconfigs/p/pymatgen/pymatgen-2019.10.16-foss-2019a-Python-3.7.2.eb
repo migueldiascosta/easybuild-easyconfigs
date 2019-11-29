@@ -14,7 +14,7 @@ dependencies = [
     ('Python', '3.7.2'),
     ('PyYAML', '5.1'),
     ('matplotlib', '3.0.3', versionsuffix),
-    ('spglib-python', '1.14.1', versionsuffix),
+    ('spglib-python', '1.14.1.post0', versionsuffix),
 ]
 
 preinstallopts = "export RUAMEL_NO_PIP_INSTALL_CHECK=1 && "
