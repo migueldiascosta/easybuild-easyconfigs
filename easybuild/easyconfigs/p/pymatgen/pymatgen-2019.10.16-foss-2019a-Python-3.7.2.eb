@@ -19,6 +19,8 @@ dependencies = [
 
 preinstallopts = "export RUAMEL_NO_PIP_INSTALL_CHECK=1 && "
 
+use_pip = True
+
 exts_list = [
     ('docutils', '0.15.2', {
         'source_urls': ['https://pypi.python.org/packages/source/d/docutils/'],

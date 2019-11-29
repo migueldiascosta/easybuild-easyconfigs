@@ -13,6 +13,9 @@ source_urls = ['https://pypi.python.org/packages/source/%(nameletter)s/spglib']
 sources = ['spglib-%(version)s.tar.gz']
 checksums = ['1823aa0a10c0cde0504c8dae8c0012591e5334fd38e21c3bf540dc0219a3b44e']
 
+use_pip = True
+download_dep_fail = True
+
 dependencies = [
     ('Python', '3.7.2'),
 ]
